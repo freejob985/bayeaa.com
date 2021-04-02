@@ -201,12 +201,13 @@ margin-top: 5%;
                                     <div class="well well-lg">
                                         <h4 class="media-heading text-uppercase reviews">
                                             @if (get_user($post->user_id)===$item_comment->User)
-                                                A-
+                                            {{ $item_comment->User }}
+                                            <img src="https://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/256/Actions-irc-operator-icon.png" style="margin-top:3px" loading="lazy" width="256" height="256" alt="Actions irc operator icon" title="Actions irc operator icon"> 
                                             @else
-                                             B   -
+                                            {{ $item_comment->User }}
                                             @endif
                                             
-                                            {{ $item_comment->User }} </h4>
+                                            </h4>
                                         <label style="
                                         background: white;
                                         font-size: 110%;
