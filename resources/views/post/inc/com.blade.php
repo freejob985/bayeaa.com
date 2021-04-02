@@ -191,7 +191,11 @@ margin-top: 5%;
                                 <div class="media-body">
                                     <div class="well well-lg">
                                         <h4 class="media-heading text-uppercase reviews">
-                                            
+                                            @if ($post->contact_name===$item_comment->User)
+                                                A-
+                                            @else
+                                             B   -
+                                            @endif
                                             
                                             {{ $item_comment->User}} </h4>
                                         <label style="

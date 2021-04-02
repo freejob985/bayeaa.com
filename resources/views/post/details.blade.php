@@ -364,7 +364,7 @@
 										<span class="name">
 											@if (isset($user) and !empty($user))
 												<a href="{{ \App\Helpers\UrlGen::user($user) }}">
-													{{ $post->contact_name }}11111
+													{{ $post->contact_name }}
 												</a>
 											@else
 												{{ $post->contact_name }}
