@@ -19,6 +19,9 @@
 	.pluginSkinLight.pluginFontHelvetica {
 		display: none !important;
 	}
+	html#facebook {
+		display: none !important;
+	}
 </style>
 @section('content')
 	{!! csrf_field() !!}
