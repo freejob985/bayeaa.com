@@ -386,7 +386,7 @@ return [
     'email_not_found_at_provider' => 'عنوان البريد الإلكتروني غير موجود. لا يمكنك استخدام الخاص بك :provider حساب على موقعنا.',
     'Payable Amount' => 'المبلغ المستحق الدفع',
     'Home - Featured Ads' => 'متميز <span style="font-weight: bold;">إعلانات</span>',
-    'Similar Ads' => 'مماثل <span style="font-weight: bold;">إعلانات</span>',
+    'Similar Ads' => 'مماثلة <span style="font-weight: bold;">إعلانات </span>',
     'more_ads_at_x_distance_around_city' => 'مزيد من الإعلانات في :distance :unit حول <span style="font-weight: bold;">:city</span>',
     'Error' => 'خطأ',
     'Unknown error' => 'خطأ غير معروف',
