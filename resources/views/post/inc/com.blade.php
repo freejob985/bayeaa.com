@@ -202,7 +202,7 @@ margin-top: 5%;
                                         <h4 class="media-heading text-uppercase reviews">
                                             @if (get_user($post->user_id)===$item_comment->User)
                                             {{ $item_comment->User }}
-                                            <img src="https://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/256/Actions-irc-operator-icon.png" style="margin-top:3px" loading="lazy" width="256" height="256" alt="Actions irc operator icon" title="Actions irc operator icon"> 
+                                            <img src="https://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/256/Actions-irc-operator-icon.png" style="margin-top:3px" loading="lazy" width="30" height="30" alt="Actions irc operator icon" title="Actions irc operator icon"> 
                                             @else
                                             {{ $item_comment->User }}
                                             @endif
