@@ -63,6 +63,15 @@ function time_since($start)
 
     return "$days $hours $mins $secs ago";
 }
+
+
+
+function get_user($id){
+
+    $users= DB::table('users')->find($id);
+    return  $users->name;
+    
+}
 @endphp
  
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
