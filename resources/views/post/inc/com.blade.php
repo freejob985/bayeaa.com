@@ -253,9 +253,12 @@ margin-top: 5%;
                             <div class="tab-pane" id="add-comment">
                                 <form action="{{ route('Comments.post') }}" method="post" class="form-horizontal"
                                     id="commentForm" role="form">
+                                    @if (Auth::check())
+                                        
+                                
                                     <input type="hidden" name="Topic" id="" value="{{ $post->id }}">
                                     <input type="hidden" name="User" id="" value="{{ auth()->user()->name }}">
-
+                                    @endif
                                     <div class="form-group">
                                         <label for="email" class="col-sm-2 control-label">Comment</label>
                                         <div class="col-sm-10">
