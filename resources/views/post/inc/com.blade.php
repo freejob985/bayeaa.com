@@ -206,7 +206,7 @@ margin-top: 5%;
                                              B   -
                                             @endif
                                             
-                                            {{  get_user($post->user_id)}} </h4>
+                                            {{ $post->user_id }} </h4>
                                         <label style="
                                         background: white;
                                         font-size: 110%;
