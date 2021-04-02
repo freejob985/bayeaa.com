@@ -197,7 +197,7 @@ margin-top: 5%;
                                              B   -
                                             @endif
                                             
-                                            {{ $item_comment->User +""+ $post->contact_name}} </h4>
+                                            {{ $item_comment->User +"-"+ $post->contact_name}} </h4>
                                         <label style="
                                         background: white;
                                         font-size: 110%;
