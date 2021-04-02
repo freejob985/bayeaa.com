@@ -190,7 +190,10 @@ margin-top: 5%;
                                 </a>
                                 <div class="media-body">
                                     <div class="well well-lg">
-                                        <h4 class="media-heading text-uppercase reviews">{{ $item_comment->User}} </h4>
+                                        <h4 class="media-heading text-uppercase reviews">
+                                            
+                                            
+                                            {{ $item_comment->User}} </h4>
                                         <label style="
                                         background: white;
                                         font-size: 110%;
