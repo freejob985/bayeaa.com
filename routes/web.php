@@ -18,6 +18,8 @@ use Auth;
 
 
  
+
+ 
 Route::post('Comments/post', function (Request $request) {
     $comment = array();
     $comment['Topic'] = $request->input('Topic');
