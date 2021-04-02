@@ -1,4 +1,4 @@
-@if (Auth::check())
+
 
 
 @php
@@ -211,6 +211,7 @@ margin-top: 5%;
                                
                             </li>
                             @endforeach
+                            @if (Auth::check())
                             <div class="tab-pane" id="add-comment">
                                 <form action="{{ route('Comments.post') }}" method="post" class="form-horizontal" id="commentForm" role="form">
                                     <input type="hidden" name="Topic" id="" value="{{ $post->id }}">
