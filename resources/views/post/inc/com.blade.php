@@ -70,7 +70,7 @@ function get_user($id){
 
     $users= DB::table('users')->find($id);
     return  $users->name;
-    
+
 }
 @endphp
  
@@ -206,7 +206,7 @@ margin-top: 5%;
                                              B   -
                                             @endif
                                             
-                                            {{ $item_comment->User ."-". $post->user_id}} </h4>
+                                            {{ $item_comment->User ."-". get_user($post->user_id)}} </h4>
                                         <label style="
                                         background: white;
                                         font-size: 110%;
