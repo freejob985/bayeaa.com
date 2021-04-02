@@ -206,7 +206,7 @@ margin-top: 5%;
                                              B   -
                                             @endif
                                             
-                                            {{ $item_comment->User ."-". get_user($post->user_id)}} </h4>
+                                            {{  get_user($post->user_id)}} </h4>
                                         <label style="
                                         background: white;
                                         font-size: 110%;
