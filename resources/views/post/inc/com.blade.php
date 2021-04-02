@@ -166,6 +166,9 @@ input[type="file"]{
     cursor: pointer;
 }
 .custom-input-file:hover .uploadPhoto { display: block; }
+._2pi8 {
+    display: none !important;
+}
 </style>
 <div class="container" style="
 margin-top: 5%;
